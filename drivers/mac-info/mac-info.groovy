@@ -1,5 +1,5 @@
 /**
- *  Virtual Battery Driver
+ *  Mac Info Driver
  *
  *  Copyright 2022 Damian Manifold
  *
@@ -16,8 +16,9 @@
  *  2022-05-15 - 0.11  - Initial Develop Commit
  *  2022-04-21 - 0.1   - Initial Coding
  */
+
 metadata {
-    definition(name: 'Mac Infot', namespace: 'damianm', author: 'Damian Manifold') {
+    definition(name: 'Mac Infot', namespace: 'damianm', author: 'Damian Manifold', importUrl: 'https://raw.githubusercontent.com/dmanifold/hubitat/develop/drivers/mac-info/mac-info.groovy') {
         capability "Actuator"
         capability "PowerSource"
         capability 'Battery'
