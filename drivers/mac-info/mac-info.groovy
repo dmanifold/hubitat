@@ -18,7 +18,7 @@
  */
 
 metadata {
-    definition(name: 'Mac Infot', namespace: 'damianm', author: 'Damian Manifold', importUrl: 'https://raw.githubusercontent.com/dmanifold/hubitat/develop/drivers/mac-info/mac-info.groovy') {
+    definition(name: 'Mac Info Driver', namespace: 'damianm', author: 'Damian Manifold', importUrl: 'https://raw.githubusercontent.com/dmanifold/hubitat/develop/drivers/mac-info/mac-info.groovy') {
         capability "Actuator"
         capability "PowerSource"
         capability 'Battery'
